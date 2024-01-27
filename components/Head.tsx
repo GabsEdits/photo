@@ -34,13 +34,9 @@ export function Head({ thumbnail }: HeadProps) {
 		<meta name="description" content={env.DESCRIPTION}/>
 		<link rel="stylesheet" type="text/css" media="screen" href="/css/master.css" />
 		{env.ALLOW_IMAGE_SHARING && <link rel="stylesheet" type="text/css" href="/css/toastify.min.css"/>}
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1"/>
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=1"/>
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=1"/>
 		<link rel="me" href="https://fosstodon.org/@gabs"/>
 		<link rel="manifest" href="/site.webmanifest?v=1"/>
-		<link rel="mask-icon" href="/favicon.svg?v=1"/>
-		<link rel="shortcut icon" href="/favicon.ico?v=1"/>
+		<link rel="icon" href="/favicon.svg"/>
 		<meta name="msapplication-TileColor" content="#603cba"/>
 		<meta name="theme-color" content="#ffffff"/>
 	</FreshHead>
