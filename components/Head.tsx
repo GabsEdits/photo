@@ -34,7 +34,7 @@ export function Head({ thumbnail }: HeadProps) {
 		<meta name="description" content={env.DESCRIPTION}/>
 		<link rel="stylesheet" type="text/css" media="screen" href="/css/master.css" />
 		{env.ALLOW_IMAGE_SHARING && <link rel="stylesheet" type="text/css" href="/css/toastify.min.css"/>}
-		<link rel="me" href="https://fosstodon.org/@gabs"/>
+		<link rel="me" href="https://vmst.io/@gabs"/>
 		<link rel="manifest" href="/site.webmanifest?v=1"/>
 		<link rel="icon" href="/favicon.svg"/>
 		<meta name="msapplication-TileColor" content="#603cba"/>
